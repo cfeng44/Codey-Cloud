@@ -16,4 +16,4 @@ Note: Some of the listed local implementations may be off as they are only intit
 
 ## First Working Version of GUI for local "EC2"
 
-![First Working GUI](https://github.com/cfeng44/Codey-Cloud/RM_images/version1.0.png)
+![First Working GUI](https://github.com/cfeng44/Codey-Cloud/blob/main/RM_images/v1.0.png)
