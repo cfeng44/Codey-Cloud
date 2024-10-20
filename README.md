@@ -13,3 +13,7 @@ Note: Some of the listed local implementations may be off as they are only intit
 |    MongoDB & Docker           |             DynamoDB        |
 |    Docker                     |             Lamda           |
 |    Redis                      |             ElastiCache     |
+
+## First Working Version of GUI for local "EC2"
+
+![alt text](https://github.com/cfeng44/Codey-Cloud/RM_images/version1.0.png?raw=true)
