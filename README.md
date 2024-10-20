@@ -14,6 +14,6 @@ Note: Some of the listed local implementations may be off as they are only intit
 |    Docker                     |             Lamda           |
 |    Redis                      |             ElastiCache     |
 
-## First Working Version of GUI for local "EC2" (21st Oct 2024 4:43 am)
+## First Working Version of GUI for local "EC2" (21st Oct 2024)
 
 ![First Working GUI](https://github.com/cfeng44/Codey-Cloud/blob/main/RM_images/v1.0.png)
