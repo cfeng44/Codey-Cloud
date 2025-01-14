@@ -1,1 +1,1 @@
-# [codey-cloud.com](https://cfeng44.github.io/Codey-Cloud/) ![](/img/codeycloud.jpeg)
+# [codey-cloud.com](https://cfeng44.github.io/Codey-Cloud/)
