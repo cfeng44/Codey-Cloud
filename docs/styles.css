@@ -6,6 +6,7 @@
 
 * {
     font-family: 'Fira Code', monospace;
+    -webkit-font-smoothing: antialiased;
 }
 
 body, html {
@@ -14,6 +15,14 @@ body, html {
     height: 100%;
     display: flex;
     flex-direction: column;
+}
+
+.content-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
 }
 
 #banner-nav-container {
@@ -28,7 +37,7 @@ body, html {
     justify-content: space-between;  
     align-items: center;
     width: 100%;
-    height: 300px;
+    height: 200px;
     background-color: var(--primary-color);
 }
 
@@ -50,19 +59,21 @@ body, html {
 }
 
 nav {
+    padding-top: 2.5px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     background-color: var(--primary-color);
+    border-bottom: 1px solid white;
+
 }
 
 .menu-button {
     font-size: 16px;
     background-color: var(--secondary-color);
-    box-shadow: 0 0 4px white;
-    border-radius: 8px;
     color: var(--text-color);
     text-align: center;
     padding: 7.5px 15px; 
+    /* max-width: 50; */
     margin: 7.5px;
     transition: background-color 0.3s ease;
     text-decoration: none;
@@ -72,9 +83,14 @@ nav {
     height: auto;  
 }
 
-.menu-button:hover {
+/* .menu-button:hover {
     background-color: grey;
     border: none;
+} */
+
+.menu-button:hover {
+    background-color: white;
+    color: var(--secondary-color);
 }
 
 .menu-button:first-child {
@@ -95,15 +111,24 @@ nav {
 }
 
 main {
-    background-color: black;
+    /* background-color: black; */
+    background-color: #05367a;
     color: white;
     display: flex;
     flex: 1;
 }
 
+.main-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
 #logo {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 200px;
+    max-height: 200px;
     height: auto;
 }
 
