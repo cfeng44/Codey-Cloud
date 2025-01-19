@@ -12,6 +12,15 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#banner-nav-container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    padding-bottom: 2.5px;
 }
 
 .banner {
@@ -43,17 +52,18 @@ body, html {
 nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: var(--primary-color);
 }
 
 .menu-button {
     font-size: 16px;
-    border-radius: 4px;
     background-color: var(--secondary-color);
-    border: none;
+    box-shadow: 0 0 4px white;
+    border-radius: 8px;
     color: var(--text-color);
     text-align: center;
     padding: 7.5px 15px; 
-    margin: 2.5px;
+    margin: 7.5px;
     transition: background-color 0.3s ease;
     text-decoration: none;
     display: flex;
@@ -63,7 +73,16 @@ nav {
 }
 
 .menu-button:hover {
-    background-color: black;
+    background-color: grey;
+    border: none;
+}
+
+.menu-button:first-child {
+    margin-left: 7.5px;
+}
+
+.menu-button:last-child {
+    margin-right: 7.5px;
 }
 
 .page {
@@ -73,6 +92,13 @@ nav {
 
 .page:target {
     display: block;
+}
+
+main {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex: 1;
 }
 
 #logo {
