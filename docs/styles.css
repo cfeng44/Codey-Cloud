@@ -52,10 +52,17 @@ nav {
     border: none;
     color: var(--text-color);
     text-align: center;
-    padding: 7.5px;
+    padding: 7.5px 15px; /* Padding adjusted for width and height */
     margin: 2.5px;
     transition: background-color 0.3s ease;
     text-decoration: none;
+
+    /* Flexbox for centering */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: auto;  /* Let height adjust based on content */
 }
 
 .menu-button:hover {
