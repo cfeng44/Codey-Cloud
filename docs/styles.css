@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #042d65;
+    --primary-color: #042D64;
     --secondary-color: #156082;
     --text-color: #FFFFFF;
 }
@@ -15,6 +15,12 @@ body, html {
     height: 100%;
     display: flex;
     flex-direction: column;
+}
+
+main {
+    color: black;
+    display: flex;
+    flex: 1;
 }
 
 .content-wrapper {
@@ -37,8 +43,10 @@ body, html {
     justify-content: space-between;  
     align-items: center;
     width: 100%;
-    height: 200px;
+    height: 150px;
     background-color: var(--primary-color);
+    border-image: linear-gradient(to right, #305ed5 19%, #8cc0c8 43%, #4c60d2 57%, #d2cedc 81%) 100;
+    border-bottom: 7px solid #005c8a;
 }
 
 .banner-section-left {
@@ -63,17 +71,13 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     background-color: var(--primary-color);
-    /* border-bottom: 1px solid white; */
 
 }
 
 .menu-button {
     font-size: 16px;
-    /* background-color: var(--secondary-color);
-    color: var(--text-color); */
     text-align: center;
     padding: 7.5px 15px; 
-    /* max-width: 50; */
     margin: 7.5px;
     transition: background-color 0.3s ease;
     text-decoration: none;
@@ -82,14 +86,8 @@ nav {
     align-items: center;
     height: auto;  
     background-color: white;
-    /* color: var(--secondary-color); */
     color: black;
 }
-
-/* .menu-button:hover {
-    background-color: grey;
-    border: none;
-} */
 
 .menu-button:hover {
     /* background-color: white;
@@ -112,16 +110,8 @@ nav {
 }
 
 .page:target {
-    display: block;
-}
-
-main {
-    /* background-color: black; */
-    /* background-color: #05367a; darker version of site*/
-    background-color: white;
-    color: black;
     display: flex;
-    flex: 1;
+    flex-direction: column;
 }
 
 .main-content {
@@ -130,20 +120,17 @@ main {
     margin: 0 auto;
     padding: 0 15px;
     box-sizing: border-box;
-}
-
-.page-heading {
-
+    background-color: white;
 }
 
 #logo {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 125px;
+    max-height: 125px;
     height: auto;
 }
 
 #title {
-    font-size: 56px;
+    font-size: 46px;
     color: var(--text-color);
     margin-bottom: 10px;
     font-weight: 350;
@@ -151,7 +138,7 @@ main {
 }
 
 #subtitle {
-    font-size: 28px;
+    font-size: 20px;
     color: var(--text-color);
     margin-top: 10px;
     font-style: italic;
