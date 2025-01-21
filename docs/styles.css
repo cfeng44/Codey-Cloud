@@ -79,7 +79,7 @@ nav {
     text-align: center;
     padding: 7.5px 15px; 
     margin: 7.5px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.15s ease;
     text-decoration: none;
     display: flex;
     justify-content: center;
